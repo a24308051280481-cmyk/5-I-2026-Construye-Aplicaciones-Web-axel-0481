@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+<!-- Conecta la página web con una librería en internet que contiene un paquete de iconos para poder utilizarlos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body bgcolor="#ebf5fb">
+
+<h2 align="center">
+  <font face="Trebuchet MS" color="#1b4f72" size="5">Formulario con botones</font>
+</h2>
+
+<!-- Contenedor que agrupa los campos para recopilar y enviar datos -->
+<form action="" method="post" align="center">
+
+  <font face="Trebuchet MS" size="3" color="#2c3e50">Ingresa tu nombre:</font>
+  <br>
+
+  <!-- Casilla de texto para escribir información -->
+  <input type="text" name="nombre" size="25">
+  <br><br>
+
+  <!-- Botón interactivo para enviar la información recopilada -->
+  <button type="submit">
+    Enviar 
+    <!-- Muestra un icono gráfico de la librería externa -->
+    <i class="fa-regular fa-paper-plane"></i>
+  </button>
+
+  <!-- Botón interactivo para limpiar o borrar los datos del formulario -->
+  <button type="reset">
+    Borrar 
+    <i class="fa fa-trash"></i>
+  </button>
+
+</form>
+
+</body>
+</html>
